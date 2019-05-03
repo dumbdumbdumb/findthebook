@@ -1,78 +1,78 @@
 ###################################################################################  book
-INSERT INTO book(book_id, book_title, book_publisher, location)
+INSERT INTO books(book_id, book_title, book_publisher, location)
 VALUES('000001', 'Korean Beginner', 'KOREA', 'A-1' );
 
-INSERT INTO book(book_id, book_title, book_publisher, location)
+INSERT INTO books(book_id, book_title, book_publisher, location)
 VALUES('000002', 'Intermediate Korean', 'KOREA', 'A-2' );
 
-INSERT INTO book(book_id, book_title, book_publisher, location)
+INSERT INTO books(book_id, book_title, book_publisher, location)
 VALUES('001001', 'Japanese Beginner', 'JAPAN', 'B-1' );
 
-INSERT INTO book(book_id, book_title, book_publisher, location)
+INSERT INTO books(book_id, book_title, book_publisher, location)
 VALUES('001002', 'Intermediate Beginner', 'JAPAN', 'B-2' );
 
 
 ###################################################################################  student
-INSERT INTO student(student_id, student_name)
+INSERT INTO students(student_id, student_name)
 VALUES('006004','HJ Yang');
 
-INSERT INTO student(student_id, student_name)
+INSERT INTO students(student_id, student_name)
 VALUES('006006','Sophie Choi');
 
-INSERT INTO student(student_id, student_name)
+INSERT INTO students(student_id, student_name)
 VALUES('006008','James Park');
 
 
 ###################################################################################  class
-INSERT INTO class(class_id, class_title, required_book_id)
+INSERT INTO classes(class_id, class_title, required_book_id)
 VALUES('k101','Korean101','000001');
 
-INSERT INTO class(class_id, class_title, required_book_id)
+INSERT INTO classes(class_id, class_title, required_book_id)
 VALUES('k102','Korean102','000002');
 
-INSERT INTO class(class_id, class_title, required_book_id)
+INSERT INTO classes(class_id, class_title, required_book_id)
 VALUES('j101','Japnese101','001001');
 
-INSERT INTO class(class_id, class_title, required_book_id)
+INSERT INTO classes(class_id, class_title, required_book_id)
 VALUES('j102','Japnese102','001002');
 
 
 ###################################################################################  schedule
 ### HJ
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006004','k101');
 
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006004','k102');
 
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006004','j101');
 
 ### SOPHIE
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006006','k102');
 
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006006','j101');
 
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006006','j102');
 
 ### JAMES
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006008','k101');
 
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006008','k102');
 
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006008','j101');
 
-INSERT INTO schedule(student_id, class_id)
+INSERT INTO schedules(student_id, class_id)
 VALUES('006008','j102');
 
 
 select c.required_book_id
-from student s, class c, schedule sc
+from students s, classes c, schedules sc
 where s.student_id = '6004' and s.student_id = sc.student_id and sc.class_id = c.class_id
 ;

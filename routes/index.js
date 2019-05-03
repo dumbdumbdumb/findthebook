@@ -6,7 +6,10 @@ var db_connection = require('../express-mysql/db_connection');
 
 
 /*DB query test*/
-db_connection.query("SELECT * FROM device_info", function (err, result) {
+db_connection.query("select c.required_book_id\n" +
+    "from students s, classes c, schedules sc\n" +
+    "where s.student_id = '6004' and s.student_id = sc.student_id and sc.class_id = c.class_id\n" +
+    ";\n", function (err, result) {
     if (err) throw err;
     console.log(result);
 });

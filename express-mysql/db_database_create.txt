@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS findthebook;
 USE findthebook;
 
 
-CREATE TABLE book(
+CREATE TABLE books(
 	book_id INT NOT NULL,
 	book_title CHAR(30) NOT NULL,
 	book_publisher CHAR(20) NOT NULL,
@@ -15,30 +15,31 @@ CREATE TABLE book(
 
 );
 
-CREATE TABLE student(
+CREATE TABLE students(
 	student_id INT NOT NULL,
 	student_name char(30) NOT NULL,
 	PRIMARY KEY(student_id)
 );
 
 
-CREATE TABLE class(
+CREATE TABLE classes(
 	class_id CHAR(20) NOT NULL,
 	class_title CHAR(20) NOT NULL,
 	required_book_id INT NOT NULL,
 	PRIMARY KEY(class_id),
 	FOREIGN KEY(required_book_id )
-		REFERENCES book(book_id)
+		REFERENCES books(book_id)
 
 );
 
 
 
-CREATE TABLE schedule(
-	student_id INT NOT NULL,
+CREATE TABLE schedules(
+    schedule_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    student_id INT NOT NULL,
 	class_id CHAR(20) NOT NULL,
 	FOREIGN KEY(student_id)
-		REFERENCES student(student_id),
+		REFERENCES students(student_id),
 	FOREIGN KEY(class_id)
-		REFERENCES class(class_id)
+		REFERENCES classes(class_id)
 );
