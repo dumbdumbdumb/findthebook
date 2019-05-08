@@ -15,10 +15,18 @@ module.exports = function(sequelize, DataTypes){
         required_book_id: {
             allowNull: false,
             type: DataTypes.INTEGER,
-            references: models.books,
-            referencesKey:'book_id'
+            // references: models.books,
+            // referencesKey:'book_id'
         }
     });
+    classes.associate = function(models){
+        classes.hasMany(models.schedules,{
+            foreignKey: 'class_id'
+        });
+        classes.belongsTo(models.books,{
+            foreignKey: 'required_book_id'
+        });
+    };
 
     return classes;
 };

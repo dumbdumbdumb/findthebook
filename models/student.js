@@ -11,8 +11,7 @@ module.exports = function(sequelize, DataTypes){
             type: DataTypes.CHAR(30),
             allowNull: false
         }
-    }
-     );
+    });
 
     students.associate = function(models){
         students.hasMany(models.schedules,{

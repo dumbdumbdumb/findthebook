@@ -19,6 +19,11 @@ module.exports = function(sequelize, DataTypes){
             type: DataTypes.CHAR(20)
         }
     });
+    books.associate = function(models){
+        books.hasMany(models.classes,{
+            foreignKey: 'required_book_id'
+        });
 
+    };
     return books;
 };

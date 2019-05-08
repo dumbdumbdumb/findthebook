@@ -18,6 +18,14 @@ module.exports = {
             location: {
                 allowNull: false,
                 type: Sequelize.CHAR(20)
+            },
+            createdAt: {
+                allowNull: true,
+                type: Sequelize.DATE
+            },
+            updatedAt: {
+                allowNull: true,
+                type: Sequelize.DATE
             }
         })
     },
