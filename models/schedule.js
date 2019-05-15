@@ -12,8 +12,7 @@ module.exports = function(sequelize, DataTypes){
             },
             student_id: {
             type: DataTypes.INTEGER,
-
-            allowNull: false,
+            allowNull: false//,
             // references: models.students,
             // referencesKey: 'student_id'
 

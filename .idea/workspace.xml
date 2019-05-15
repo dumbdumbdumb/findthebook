@@ -15,26 +15,8 @@
       <file leaf-file-name="landing.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../findthebook/controllers/landing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../findthebook/models/class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../findthebook/models/schedule.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="418">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -42,8 +24,26 @@
       <file leaf-file-name="book.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../findthebook/models/book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="418">
               <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../findthebook/models/class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../findthebook/models/schedule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -51,8 +51,17 @@
       <file leaf-file-name="student.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../findthebook/models/student.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="304">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../findthebook/views/landing.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -60,8 +69,8 @@
       <file leaf-file-name="list.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../findthebook/views/list.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="-19">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -97,24 +106,30 @@
         <option value="$PROJECT_DIR$/express-mysql/db_columns_create.txt" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/express-mysql/db_connection.js" />
-        <option value="$PROJECT_DIR$/../findthebook/.sequelizerc" />
-        <option value="$PROJECT_DIR$/../findthebook/models/index.js" />
-        <option value="$PROJECT_DIR$/../findthebook/bin/www" />
-        <option value="$PROJECT_DIR$/../findthebook/config/config.js" />
-        <option value="$PROJECT_DIR$/../findthebook/models/lead.js" />
-        <option value="$PROJECT_DIR$/../findthebook/models/relationships.js" />
-        <option value="$PROJECT_DIR$/../findthebook/migrations/create_student_table.js" />
-        <option value="$PROJECT_DIR$/../findthebook/models/schedule.js" />
-        <option value="$PROJECT_DIR$/../findthebook/routes/index.js" />
-        <option value="$PROJECT_DIR$/../findthebook/migrations/create_schedule_table.js" />
-        <option value="$PROJECT_DIR$/../findthebook/migrations/create_class_table.js" />
-        <option value="$PROJECT_DIR$/../findthebook/migrations/create_book_table.js" />
-        <option value="$PROJECT_DIR$/../findthebook/express-mysql/db_database_create.txt" />
-        <option value="$PROJECT_DIR$/../findthebook/express-mysql/db_columns_create.txt" />
-        <option value="$PROJECT_DIR$/../findthebook/views/list.pug" />
+        <option value="$PROJECT_DIR$/.sequelizerc" />
+        <option value="$PROJECT_DIR$/models/index.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/config/config.js" />
+        <option value="$PROJECT_DIR$/models/lead.js" />
+        <option value="$PROJECT_DIR$/models/relationships.js" />
+        <option value="$PROJECT_DIR$/migrations/create_student_table.js" />
+        <option value="$PROJECT_DIR$/models/schedule.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/migrations/create_schedule_table.js" />
+        <option value="$PROJECT_DIR$/migrations/create_class_table.js" />
+        <option value="$PROJECT_DIR$/migrations/create_book_table.js" />
+        <option value="$PROJECT_DIR$/express-mysql/db_database_create.txt" />
+        <option value="$PROJECT_DIR$/express-mysql/db_columns_create.txt" />
+        <option value="$PROJECT_DIR$/views/list.pug" />
+        <option value="$PROJECT_DIR$/models/class.js" />
+        <option value="$PROJECT_DIR$/models/book.js" />
+        <option value="$PROJECT_DIR$/models/student.js" />
+        <option value="$PROJECT_DIR$/controllers/landing.js" />
         <option value="$PROJECT_DIR$/../findthebook/models/class.js" />
         <option value="$PROJECT_DIR$/../findthebook/models/book.js" />
+        <option value="$PROJECT_DIR$/../findthebook/models/schedule.js" />
         <option value="$PROJECT_DIR$/../findthebook/models/student.js" />
+        <option value="$PROJECT_DIR$/../findthebook/views/list.pug" />
         <option value="$PROJECT_DIR$/../findthebook/controllers/landing.js" />
       </list>
     </option>
@@ -144,7 +159,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="1148" />
+    <option name="width" value="1250" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -153,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,6 +199,11 @@
             <path>
               <item name="findthebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="findthebook" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="findthebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="findthebook" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -190,11 +211,11 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/findthebook/express-mysql/db_columns_create.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.3" />
@@ -280,11 +301,12 @@
       <workItem from="1555632349265" duration="8123000" />
       <workItem from="1555973862015" duration="21463000" />
       <workItem from="1556242098844" duration="62178000" />
+      <workItem from="1557868868098" duration="16984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91764000" />
+    <option name="totallyTimeSpent" value="108748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -299,7 +321,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35497236" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24033149" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32872927" />
       <window_info id="Capture Tool" order="5" />
@@ -328,7 +350,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -442,20 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/models/lead.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/models/lead.js" />
     <entry file="file://$PROJECT_DIR$/../findthebook/express-mysql/db_connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -477,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../findthebook/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-188">
@@ -491,20 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/models/relationships.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/models/relationships.js" />
     <entry file="file://$PROJECT_DIR$/../findthebook/node_modules/bluebird/js/release/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -522,62 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/views/landing.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/migrations/create_book_table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/migrations/create_schedule_table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/express-mysql/db_columns_create.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="61" column="46" lean-forward="true" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/express-mysql/db_database_create.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="40" lean-forward="true" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/migrations/create_student_table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/views/list.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../findthebook/node_modules/sequelize/lib/dialects/mysql/query.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -592,38 +525,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/models/student.js">
+    <entry file="file://$PROJECT_DIR$/../findthebook/migrations/create_student_table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/models/schedule.js">
+    <entry file="file://$PROJECT_DIR$/../findthebook/migrations/create_schedule_table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/express-mysql/db_columns_create.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/express-mysql/db_database_create.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="40" lean-forward="true" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/migrations/create_book_table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/views/landing.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/models/class.js">
+    <entry file="file://$PROJECT_DIR$/../findthebook/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../findthebook/models/book.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
+        <state relative-caret-position="418">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/models/class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/models/student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/models/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/views/list.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../findthebook/controllers/landing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="418">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

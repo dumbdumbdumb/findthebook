@@ -14,7 +14,7 @@ module.exports = function(sequelize, DataTypes){
         },
         required_book_id: {
             allowNull: false,
-            type: DataTypes.INTEGER,
+            type: DataTypes.INTEGER//,
             // references: models.books,
             // referencesKey:'book_id'
         }
