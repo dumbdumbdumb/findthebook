@@ -3,6 +3,8 @@ extends layout
 block content
   h1= title
   p Very Welcome to #{title}
+  if(invalid)
+    p invalid data
   form(action="/", method="POST")
     input(name="lead_id", type="number", placeholder="Enter your student ID")
     button(type="submit") Submit
