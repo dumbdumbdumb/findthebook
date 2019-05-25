@@ -1,22 +1,35 @@
 doctype html
 html(lang='en')
-  include common/head.pug
+  include common/head
   +head("Get my List!")
-  body
+  body#mybody
     header
       .container
         .row.align-items-center
           .col-md-6.order-md-1.text-center.text-md-left.pr-md-5
-            h1.mb-3 Course Materials shopping List
-            p.lead Which books should I get?  We will show the list.
-            //p.lead.mb-4 We will show the list.
-            if(invalid)
-              p Invalid ID Try again !!
-            form(action="/", method="POST")
-              .input-group.mb-3
-                input(name="lead_id", type="number", placeholder="Enter your student ID")
-                //.form-control
-                .input-group-append
-                  button(type="submit").btn.btn-primary Get My List!
+            div(class="loginDiv")
+              div(class="landing_head")
+                h1.mb-3
+                  |Course Materials
+                  br
+                  |shopping List
+
+              div(class="landing_description")
+                p
+                  |Which books should I get?
+                  br
+                  |We will show you the list.
+
+              div(class="landing_alarm")
+                if(invalid)
+                  p Invalid ID, Try again !!
+
+              div(class="landing_input_ID")
+                form(action="/", method="POST")
+                  .input-group.mb-3
+                    input(name="lead_id", type="number", placeholder="Enter your student ID")
+                    .input-group-append
+                      div(class="submitButton")
+                        button(type="submit").btn.btn-primary Get My List!
     include common/footer.pug
     +footer()
