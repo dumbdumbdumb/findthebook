@@ -125,3 +125,12 @@ body#mybody {
   }
 }
 
+.footer{
+  font-size: 0.5em;
+  text-align: right;
+  color: #616977;
+
+  padding-top: 60px
+
+
+}

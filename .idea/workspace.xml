@@ -42,8 +42,8 @@
       <file leaf-file-name="footer.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../findthebook/views/common/footer.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="133">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -69,8 +69,8 @@
       <file leaf-file-name="landing.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../findthebook/views/landing.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="299">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -78,8 +78,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../findthebook/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+            <state relative-caret-position="456">
+              <caret line="132" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/../findthebook/views/common/head4list.pug" />
         <option value="$PROJECT_DIR$/../findthebook/views/list11.pug" />
         <option value="$PROJECT_DIR$/../findthebook/views/list.pug" />
-        <option value="$PROJECT_DIR$/../findthebook/views/common/footer.pug" />
         <option value="$PROJECT_DIR$/../findthebook/views/landing.pug" />
+        <option value="$PROJECT_DIR$/../findthebook/views/common/footer.pug" />
         <option value="$PROJECT_DIR$/../findthebook/public/stylesheets/style.css" />
       </list>
     </option>
@@ -342,12 +342,12 @@
       <workItem from="1555632349265" duration="8123000" />
       <workItem from="1555973862015" duration="21463000" />
       <workItem from="1556242098844" duration="62178000" />
-      <workItem from="1557868868098" duration="51035000" />
+      <workItem from="1557868868098" duration="52177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142799000" />
+    <option name="totallyTimeSpent" value="143941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -653,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/views/list11.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../findthebook/public/images/background.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -670,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../findthebook/views/common/footer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../findthebook/views/common/head.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -684,17 +670,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/views/list11.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../findthebook/views/landing.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="45" />
+        <state relative-caret-position="299">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findthebook/views/common/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../findthebook/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+        <state relative-caret-position="456">
+          <caret line="132" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
         </state>
       </provider>
     </entry>
