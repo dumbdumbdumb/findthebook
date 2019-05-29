@@ -7,45 +7,49 @@ html(lang='en')
             .container
                 .row.align-items-center
                     .col-md-6.order-md-1.text-center.text-md-left.pr-md-5
+                        div(class='')
+                            div(class="back_button")
+                                a(class='button' href='./')
+                                    div(class="buttonImage")
+                                        img(src="/images/back_button.png" width="20" height="20")
+                                    div(class="buttonText")
+                                        p &nbsp;&nbsp;back
 
-                        div(class="back_button")
-                            a(class='button' href='./')
-                                img(src="/images/back_button.png" width="60" height="30")
-
-
-                        div(class="title")
-                            h1 Course Materials List
-                        div(class="search_list")
-                            ul(class="lists")
-                                each lead in leads
-                                    li
-                                        div(class="class_title") #{lead.class_info[0].class_title}
-                                        div(class="book_title") #{lead.book_title}
-                                        div(class="book_publisher") #{lead.book_publisher}
-                                        div(class="location") #{lead.book_location}
-                        //table.table
-                        //    thead
-                        //        tr
-                        //            th(scope="col") class_title
-                        //            th(scope="col") book_title
-                        //            th(scope="col") book_publisher
-                        //            th(scope="col") book_location
-                        //            th(scope="col")
-                        //        tr
-                        //    tbody
-                        //        for lead in leads
-                        //            tr(id=lead.id)
-                        //                td
-                        //                    span #{lead.class_info[0].class_title}
-                        //                td
-                        //                    span #{lead.book_title}
-                        //                    //a(href="/lead/" + lead.id) Details
-                        //                td
-                        //                    span #{lead.book_publisher}
-                        //                td
-                        //                    span #{lead.book_location}
-                        //                    a(href="./") Details
-                        //                td
-                        //                    button(onclick=`deleteLead('${lead.id}')`).btn.btn-primary Delete
+                            div(class='info_context')
+                                div(class="title")
+                                    h1 Course Materials List
+                                div(class="search_list")
+                                    ul(class="lists")
+                                        each lead in leads
+                                            li(class="book_info")
+                                                div(class="class_title") #{lead.class_info[0].class_title}
+                                                div(class="book_detail")
+                                                    div(class="book_title") Book Title: #{lead.book_title}
+                                                    div(class="book_publisher") Book Publisher: #{lead.book_publisher}
+                                                    div(class="location") Location: #{lead.book_location}
+                            //table.table
+                            //    thead
+                            //        tr
+                            //            th(scope="col") class_title
+                            //            th(scope="col") book_title
+                            //            th(scope="col") book_publisher
+                            //            th(scope="col") book_location
+                            //            th(scope="col")
+                            //        tr
+                            //    tbody
+                            //        for lead in leads
+                            //            tr(id=lead.id)
+                            //                td
+                            //                    span #{lead.class_info[0].class_title}
+                            //                td
+                            //                    span #{lead.book_title}
+                            //                    //a(href="/lead/" + lead.id) Details
+                            //                td
+                            //                    span #{lead.book_publisher}
+                            //                td
+                            //                    span #{lead.book_location}
+                            //                    a(href="./") Details
+                            //                td
+                            //                    button(onclick=`deleteLead('${lead.id}')`).btn.btn-primary Delete
         include common/footer.pug
         +footer()
